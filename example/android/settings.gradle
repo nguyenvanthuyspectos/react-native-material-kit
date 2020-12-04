@@ -3,7 +3,7 @@ static def resolve(File dir) {
     dir.toPath().toAbsolutePath().toFile()
 }
 
-rootProject.name = 'example'
+rootProject.name = 'RNMKDemo'
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
 

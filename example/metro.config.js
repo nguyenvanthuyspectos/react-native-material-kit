@@ -20,7 +20,6 @@ module.exports = {
   watchFolders: [ path.resolve(__dirname, '..') ],
   resolver: {
     // blacklistRE: blacklist([
-    //   // yarn add -D escape-string-regexp
     //   new RegExp(`^${escape(path.resolve(__dirname, '..', 'node_modules'))}\/.*$`),
     // ]),
     // providesModuleNodeModules: [
